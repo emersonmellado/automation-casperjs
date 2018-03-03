@@ -1,2 +1,2 @@
 # casperjs
-Boilerplate for casperJS project with examples.
+Boilerplate for casperJS project.
