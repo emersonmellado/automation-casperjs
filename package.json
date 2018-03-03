@@ -1,14 +1,22 @@
 {
   "name": "automation-casperjs",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "NodeJS boilerplate for CasperJS project with PhantomJS and examples.",
   "main": "index.js",
+  "bugs": "https://github.com/emersonmellado/automation-casperjs/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emersonmellado/automation-casperjs.git"
+  },  
   "scripts": {
     "start": "node ./node_modules/casperjs/bin/casperjs.js index.js"
   },
-  "author": "Emerson Mellado",
+  "author": "Emerson Mellado <emersonmellado@gmail.com> (http://emersonmellado.com)",
   "license": "ISC",
   "dependencies": {
     "casperjs": "^1.1.4"
-  }
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }  
 }
