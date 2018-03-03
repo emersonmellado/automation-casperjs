@@ -1,0 +1,14 @@
+{
+  "name": "automation-casperjs",
+  "version": "1.0.0",
+  "description": "NodeJS boilerplate for CasperJS project with PhantomJS and examples.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/casperjs/bin/casperjs.js index.js"
+  },
+  "author": "Emerson Mellado",
+  "license": "ISC",
+  "dependencies": {
+    "casperjs": "^1.1.4"
+  }
+}
